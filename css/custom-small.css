@@ -1,0 +1,236 @@
+/* this is a custom CSS stylesheet */
+
+
+@media screen and (min-width: 0px) {
+html {
+    font-size: 10px;
+    }
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+.icon {font-size: 1.2rem;}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.35rem ;
+}
+
+
+li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    }
+
+@media screen and (min-width: 330px) {
+
+html {
+    font-size: 11px;
+    }
+
+h1 {
+    font-size: 1.82rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+.icon {font-size: 1.2rem;}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.35rem ;
+}
+
+
+li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    }
+
+    }
+
+@media screen and (min-width: 445px) {
+
+html {
+    font-size: 12px;
+    }
+
+h1 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+.icon {font-size: 1.2rem;}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.35rem ;
+}
+
+
+li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    }
+
+    }
+
+@media screen and (min-width: 520px) {
+    h1 {font-size: 2.5rem;}
+    }
+
+@media screen and (min-width: 625px) {
+    h1 {font-size: 3.33rem;}
+    }
+
+
+
+
+html, body {position:relative;}
+
+h1 {
+    font-family: Cantarell;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+h5 {letter-spacing: 5px;}
+
+p, h6, li {font-family: 'Source Sans Pro', Oxygen, Ubuntu;}
+
+p {text-align: justify;}
+
+h6 {font-weight: bold;}
+
+#main_one {
+    height:auto;
+    padding: 1%
+}
+
+#main_one #empty {
+    background-color: aliceblue;
+    padding: 0;
+    height: 250px;
+    margin-bottom: -100%;
+    z-index: -1;
+}
+
+#main_one #empty div {
+    background-color: #888888;
+    height: 250px;
+    margin-bottom: -100%;
+}
+
+#main_one #header_desktop {
+    background-color: #E5E6E0;
+    margin-top: 7%;
+    padding: 0;
+    display: inline-flex;
+    z-index: 1;
+}
+
+#main_one #header_desktop #xs_background {
+    background-color: #888888;
+    margin-right: -16.67%;
+    z-index:
+}
+
+#main_one #header_desktop #header_left_side {
+    padding: 0 6%;
+}
+
+#main_one #header_desktop #header_left_side #foto_div {
+    padding: 0;
+}
+
+img {
+    border: 0.2rem solid #E5E6E0;
+    margin: -5% 0;
+}
+
+#main_one #header_desktop #header_right_side {
+    margin: auto;
+    color: dimgrey;
+}
+
+#after_header {background-color: #888888;
+    padding:0;
+
+}
+
+#left_side_xs {
+    background-color: #888888;
+    color: white;
+    padding: 4% 6% 0% 6%;
+}
+
+    #left_side_xs div {
+        margin-bottom: 2rem;
+    }
+
+        #left_side_xs div h5 {
+            margin-bottom: 1%;
+        }
+
+        #left_side_xs div hr {
+            margin-top: 0;
+            margin-bottom:1%;
+        }
+
+        #left_side_xs div ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            #left_side_xs div li {
+                margin:0;
+                padding:0;
+                display: inline;
+                text-decoration: none;
+            }
+
+
+#right_side {
+    padding: 4% 6%;
+    background-color: aliceblue;
+}
+
+    #right_side p :link {
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    #right_side .company {
+        text-transform: uppercase;
+    }
+
+    #right_side li {
+        text-align: justify;
+        list-style-type:circle;
+    }
+
+
+    }

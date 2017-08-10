@@ -1,0 +1,32 @@
+/* this is a custom CSS stylesheet */
+
+
+@media screen and (min-width: 992px) {
+html {
+    font-size: 14px;
+}
+h1 {
+    font-size: 4rem;
+}
+    
+h5 {
+    font-size: 1.2rem;
+}
+    
+.icon {font-size: 1.05rem;}
+    
+h6 {
+    font-size: 1.2rem;
+}
+    
+p {
+    font-size: 1.35rem ;
+}
+  
+#left_side div li {
+    font-size: 1.05rem;    
+ }    
+    
+#right_side li {
+    font-size: 1.2rem;
+}
