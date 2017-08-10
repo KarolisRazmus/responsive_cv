@@ -2,65 +2,68 @@
 
 
 @media screen and (min-width: 768px) {
-html {
-    font-size: 12px;
-}
-h1 {
-    font-size: 4rem;
-}
-    
-h5 {
-    font-size: 1.2rem;
-}
-    
-.icon {font-size: 1.05rem;}
-    
-h6 {
-    font-size: 1.2rem;
-}
-    
-p {
-    font-size: 1.35rem ;
-}
-  
-#left_side div li {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    margin:0;
-    padding:0;
-    text-decoration: none;
-}
-    
-#right_side li {
-    font-size: 1.2rem;
-}
+    html {
+        font-size: 12px;
+    }
 
-#main_one #header_desktop #header_left_side {
-    background-color: #888888;
-}
+    h1 {
+        font-size: 4rem;
+    }
 
-    
-#left_side {
-    background-color: #888888;
-    color: white;
-    padding: 6%;
-}
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    .icon {
+        font-size: 1.05rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    #left_side div li {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    #right_side li {
+        font-size: 1.2rem;
+    }
+
+    #main_one #header_desktop #header_left_side {
+        background-color: #888888;
+    }
+
+    #left_side {
+        background-color: #888888;
+        color: white;
+        padding: 6%;
+    }
 
     #left_side div {
         margin-bottom: 20%;
     }
 
-        #left_side div hr {
-            margin-top: 1%;
-            margin-bottom: 5%;
-        }
+    #left_side div hr {
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
 
-        #left_side div ul {
-            list-style-type: none;
-            padding: 0;
-        }
+    #left_side div ul {
+        list-style-type: none;
+        padding: 0;
+    }
 
-#right_side {
-    padding: 6% 6%;
+    #right_side {
+        padding: 6% 6%;
+    }
 }
 
