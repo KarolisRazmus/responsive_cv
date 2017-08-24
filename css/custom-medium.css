@@ -38,8 +38,8 @@
         font-size: 1.2rem;
     }
 
-    #main_one #header_desktop #header_left_side {
-        background-color: #888888;
+    #main_container #header #header_left_side {
+        background-color: #e5e6e0;
     }
 
     #left_side {

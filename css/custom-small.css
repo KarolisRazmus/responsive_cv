@@ -1,34 +1,231 @@
 /* this is a custom CSS stylesheet */
 
+html, body {position:relative;}
+
+h1 {
+    font-family: Cantarell;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+h4, h5 {letter-spacing: 5px;}
+
+p, h6, li {font-family: 'Source Sans Pro', Oxygen, Ubuntu;}
+
+p {text-align: justify;}
+
+h6 {font-weight: bold;}
+
+#main_container {
+    height:auto;
+    padding: 1%
+}
+
+#main_container .empty {
+    background-color: #888888;
+    padding: 0;
+    height: 25px;
+    z-index: -1;
+}
+
+#main_container #header {
+    background-color: #E5E6E0;
+    padding: 0;
+    display: inline-flex;
+    z-index: 1;
+}
+
+#main_container #header #header_left_side {
+    padding: 0 6%;
+    background-color: #e5e6e0;
+}
+
+#main_container #header #header_left_side #foto_div {
+    padding: 0;
+}
+
+img {
+    border: 1.5rem solid #E5E6E0;
+    margin: -6% 0 -6% 0;
+}
+
+#main_container #header #header_right_side {
+    margin: auto;
+    color: dimgrey;
+}
+
+#header_right_side div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #888888;
+}
+
+#header_right_side div ul li span {
+    color: #696969;
+    text-align: center;
+    padding: 0 5px 5px 5px;
+}
+
+#after_header {
+    padding: 1rem 0 0 0;
+}
+
+#after_header .section {
+    padding: 0;
+}
+
+#after_header .section_head {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e5e6e0;
+}
+
+#after_header .section_title {
+    text-align: center;
+}
+
+#after_header .description_short_no_css {
+
+}
+
+#after_header .description_short_no_css ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background-color: #888888;*/
+}
+
+#after_header .description_short_no_css ul li a {
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+#after_header .description_short_no_css ul li a:hover {
+    color: #222;
+    font-weight: 600;
+}
+
+#after_header .description_long_no_css {
+
+}
+
+#after_header .description_long_no_css .text_blue{
+    color: #0451e3;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+#after_header .description_long_no_css .bg-grey{
+    padding-right: 0;
+}
+#after_header .description_long_no_css .bg-grey span{
+    background-color: #e5e6e0;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+}
+
+
+
+/*#main_one #header_desktop #xs_background {*/
+    /*background-color: #e5e6e0;*/
+    /*margin-right: -16.67%;*/
+/*}*/
+
+
+
+#left_side_xs {
+    background-color: #888888;
+    color: white;
+    padding: 4% 6% 0% 6%;
+}
+
+#left_side_xs div {
+    margin-bottom: 2rem;
+}
+
+#left_side_xs div h5 {
+    margin-bottom: 1%;
+}
+
+#left_side_xs div hr {
+    margin-top: 0;
+    margin-bottom:1%;
+}
+
+#left_side_xs div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#left_side_xs div li {
+    margin:0;
+    padding:0;
+    display: inline;
+    text-decoration: none;
+}
+
+
+#right_side {
+    padding: 4% 6%;
+    background-color: aliceblue;
+}
+
+#right_side p :link {
+    font-style: italic;
+    text-decoration: none;
+}
+
+#right_side .company {
+    text-transform: uppercase;
+}
+
+#right_side li {
+    text-align: justify;
+    list-style-type:circle;
+}
+
+
 
 @media screen and (min-width: 0px) {
-    html {
-        font-size: 10px;
-    }
 
-    h1 {
-        font-size: 1.5rem;
-    }
+        html {
+            font-size: 10px;
+        }
 
-    h5 {
-        font-size: 1.2rem;
-    }
+        h1 {
+            font-size: 1.5rem;
+        }
 
-    .icon {
-        font-size: 1.2rem;
-    }
+        h5 {
+            font-size: 1.2rem;
+        }
 
-    h6 {
-        font-size: 1.2rem;
-    }
+        .icon {
+            font-size: 1.2rem;
+        }
 
-    p {
-        font-size: 1.6rem;
-    }
+        h6 {
+            font-size: 1.2rem;
+        }
 
-    li {
-        font-size: 1.5rem;
-        line-height: 1.6;
+        p {
+            font-size: 1.6rem;
+        }
+
+        li {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
     }
 
     @media screen and (min-width: 330px) {
@@ -79,7 +276,7 @@
         }
 
         .icon {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
 
         h6 {
@@ -108,134 +305,4 @@
         h1 {
             font-size: 3.33rem;
         }
-    }
-
-
-html, body {position:relative;}
-
-h1 {
-    font-family: Cantarell;
-    letter-spacing: 10px;
-    text-align: center;
-}
-
-abbr {
-    text-decoration: none;
-}
-
-h5 {letter-spacing: 5px;}
-
-p, h6, li {font-family: 'Source Sans Pro', Oxygen, Ubuntu;}
-
-p {text-align: justify;}
-
-h6 {font-weight: bold;}
-
-#main_one {
-    height:auto;
-    padding: 1%
-}
-
-#main_one #empty {
-    background-color: aliceblue;
-    padding: 0;
-    height: 250px;
-    margin-bottom: -100%;
-    z-index: -1;
-}
-
-#main_one #empty div {
-    background-color: #888888;
-    height: 250px;
-    margin-bottom: -100%;
-}
-
-#main_one #header_desktop {
-    background-color: #E5E6E0;
-    margin-top: 7%;
-    padding: 0;
-    display: inline-flex;
-    z-index: 1;
-}
-
-#main_one #header_desktop #xs_background {
-    background-color: #888888;
-    margin-right: -16.67%;
-}
-
-#main_one #header_desktop #header_left_side {
-    padding: 0 6%;
-}
-
-#main_one #header_desktop #header_left_side #foto_div {
-    padding: 0;
-}
-
-img {
-    border: 0.2rem solid #E5E6E0;
-    margin: -5% 0;
-}
-
-#main_one #header_desktop #header_right_side {
-    margin: auto;
-    color: dimgrey;
-}
-
-#after_header {background-color: #888888;
-    padding:0;
-
-}
-
-#left_side_xs {
-    background-color: #888888;
-    color: white;
-    padding: 4% 6% 0% 6%;
-}
-
-    #left_side_xs div {
-        margin-bottom: 2rem;
-    }
-
-        #left_side_xs div h5 {
-            margin-bottom: 1%;
-        }
-
-        #left_side_xs div hr {
-            margin-top: 0;
-            margin-bottom:1%;
-        }
-
-        #left_side_xs div ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-            #left_side_xs div li {
-                margin:0;
-                padding:0;
-                display: inline;
-                text-decoration: none;
-            }
-
-
-#right_side {
-    padding: 4% 6%;
-    background-color: aliceblue;
-}
-
-    #right_side p :link {
-        font-style: italic;
-        text-decoration: none;
-    }
-
-    #right_side .company {
-        text-transform: uppercase;
-    }
-
-    #right_side li {
-        text-align: justify;
-        list-style-type:circle;
-    }
-
-
     }
